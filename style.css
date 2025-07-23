@@ -1,7 +1,7 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-    font-size: 200%;
+    font-size: 125%;
 }
 
 h1 {
@@ -9,6 +9,10 @@ h1 {
     margin: 3%;
     color: #FEC902;
     text-align: center;
+}
+
+h2 {
+    font-size: 125%;
 }
 
 img {
@@ -21,6 +25,10 @@ img {
     border-color: #2F549B;
 }
 
+footer {
+    margin-left: 2.5%;
+}
+
 .pokemon_images{
     display: block;
     margin: auto;
@@ -31,5 +39,54 @@ img {
     height: 250px;
 }
 
+#bulbasaur_container{
+    background-color: #8CC48E;
 
-/* border-radius*/ 
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #EFDC9A;
+
+    margin: 2%;
+
+}
+
+#charmander_container{
+    background-color: #F3B284;
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #EFDC9A;
+
+    margin: 2%;
+
+}
+
+#squirtle_container{
+    background-color: #8EC4CE;
+
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    border-color: #EFDC9A;
+
+    margin: 2%;
+
+}
+
+.pokemon_names{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.pokemon_description{
+    margin-left: 15px;
+}
+
+
+/* 
+<h3 class="pokemon_names">Bulbasaur</h3>
+<p class="pokemon_description">
+
+*/ 
